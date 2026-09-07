@@ -1,0 +1,181 @@
+oracion_id,caso,palabra_origen,subpalabras_origen,capa,cabeza,rango,token_destino,posicion_destino,peso
+6,gerente_escalera,gerente,ger ##ente,1,1,1,ger,14,0.09224938601255417
+6,gerente_escalera,gerente,ger ##ente,1,1,2,padres,11,0.08711695671081543
+6,gerente_escalera,gerente,ger ##ente,1,1,3,es,19,0.051310233771800995
+6,gerente_escalera,gerente,ger ##ente,1,1,4,dedicar,5,0.04711147025227547
+6,gerente_escalera,gerente,ger ##ente,1,1,5,podía,4,0.046943578869104385
+6,gerente_escalera,gerente,ger ##ente,1,6,1,el,13,0.07196596264839172
+6,gerente_escalera,gerente,ger ##ente,1,6,2,una,38,0.06289037317037582
+6,gerente_escalera,gerente,ger ##ente,1,6,3,la,18,0.05141233280301094
+6,gerente_escalera,gerente,ger ##ente,1,6,4,su,7,0.05072363093495369
+6,gerente_escalera,gerente,ger ##ente,1,6,5,a,9,0.050450388342142105
+6,gerente_escalera,gerente,ger ##ente,1,12,1,##gía,37,0.10944750159978867
+6,gerente_escalera,gerente,ger ##ente,1,12,2,[CLS],0,0.05770085006952286
+6,gerente_escalera,gerente,ger ##ente,1,12,3,[SEP],46,0.05338773876428604
+6,gerente_escalera,gerente,ger ##ente,1,12,4,escena,44,0.05261988937854767
+6,gerente_escalera,gerente,ger ##ente,1,12,5,y,22,0.043886907398700714
+6,gerente_escalera,gerente,ger ##ente,6,1,1,[CLS],0,0.16825225949287415
+6,gerente_escalera,gerente,ger ##ente,6,1,2,Gregorio,2,0.13089688122272491
+6,gerente_escalera,gerente,ger ##ente,6,1,3,escena,44,0.11283931136131287
+6,gerente_escalera,gerente,ger ##ente,6,1,4,mira,40,0.05948159843683243
+6,gerente_escalera,gerente,ger ##ente,6,1,5,##cale,20,0.05533744767308235
+6,gerente_escalera,gerente,ger ##ente,6,6,1,[CLS],0,0.3023517429828644
+6,gerente_escalera,gerente,ger ##ente,6,6,2,Gregorio,2,0.08223993331193924
+6,gerente_escalera,gerente,ger ##ente,6,6,3,atención,8,0.08137014508247375
+6,gerente_escalera,gerente,ger ##ente,6,6,4,Pero,1,0.04645036533474922
+6,gerente_escalera,gerente,ger ##ente,6,6,5,dedicar,5,0.04553956910967827
+6,gerente_escalera,gerente,ger ##ente,6,12,1,el,13,0.15079669654369354
+6,gerente_escalera,gerente,ger ##ente,6,12,2,[CLS],0,0.11720959097146988
+6,gerente_escalera,gerente,ger ##ente,6,12,3,##ente,15,0.10008226335048676
+6,gerente_escalera,gerente,ger ##ente,6,12,4,estaba,16,0.06682703644037247
+6,gerente_escalera,gerente,ger ##ente,6,12,5,ger,14,0.05713634938001633
+6,gerente_escalera,gerente,ger ##ente,12,1,1,ger,14,0.16398543119430542
+6,gerente_escalera,gerente,ger ##ente,12,1,2,Gregorio,2,0.1159372627735138
+6,gerente_escalera,gerente,ger ##ente,12,1,3,[CLS],0,0.1046009436249733
+6,gerente_escalera,gerente,ger ##ente,12,1,4,el,13,0.06552407145500183
+6,gerente_escalera,gerente,ger ##ente,12,1,5,.,45,0.05478101596236229
+6,gerente_escalera,gerente,ger ##ente,12,6,1,el,13,0.22073012590408325
+6,gerente_escalera,gerente,ger ##ente,12,6,2,Gregorio,2,0.09878893196582794
+6,gerente_escalera,gerente,ger ##ente,12,6,3,.,45,0.09735585004091263
+6,gerente_escalera,gerente,ger ##ente,12,6,4,[CLS],0,0.08210879564285278
+6,gerente_escalera,gerente,ger ##ente,12,6,5,[SEP],46,0.08107682317495346
+6,gerente_escalera,gerente,ger ##ente,12,12,1,ger,14,0.8911620378494263
+6,gerente_escalera,gerente,ger ##ente,12,12,2,bara,33,0.023508431389927864
+6,gerente_escalera,gerente,ger ##ente,12,12,3,padres,11,0.011473025195300579
+6,gerente_escalera,gerente,ger ##ente,12,12,4,##ente,15,0.0083406250923872
+6,gerente_escalera,gerente,ger ##ente,12,12,5,Gregorio,2,0.006305092945694923
+6,gerente_escalera,escalera,es ##cale ##ra,1,1,1,[CLS],0,0.08629034459590912
+6,gerente_escalera,escalera,es ##cale ##ra,1,1,2,ya,6,0.0649271234869957
+6,gerente_escalera,escalera,es ##cale ##ra,1,1,3,podía,4,0.06009497493505478
+6,gerente_escalera,escalera,es ##cale ##ra,1,1,4,",",23,0.04743297025561333
+6,gerente_escalera,escalera,es ##cale ##ra,1,1,5,",",35,0.04250333085656166
+6,gerente_escalera,escalera,es ##cale ##ra,1,6,1,[CLS],0,0.07550371438264847
+6,gerente_escalera,escalera,es ##cale ##ra,1,6,2,no,3,0.06985349208116531
+6,gerente_escalera,escalera,es ##cale ##ra,1,6,3,estaba,16,0.06478321552276611
+6,gerente_escalera,escalera,es ##cale ##ra,1,6,4,padres,11,0.043154750019311905
+6,gerente_escalera,escalera,es ##cale ##ra,1,6,5,podía,4,0.041934479027986526
+6,gerente_escalera,escalera,es ##cale ##ra,1,12,1,estaba,16,0.08476665616035461
+6,gerente_escalera,escalera,es ##cale ##ra,1,12,2,el,13,0.07058365643024445
+6,gerente_escalera,escalera,es ##cale ##ra,1,12,3,la,32,0.06436321139335632
+6,gerente_escalera,escalera,es ##cale ##ra,1,12,4,la,25,0.062481366097927094
+6,gerente_escalera,escalera,es ##cale ##ra,1,12,5,la,18,0.06206308677792549
+6,gerente_escalera,escalera,es ##cale ##ra,6,1,1,[CLS],0,0.12374493479728699
+6,gerente_escalera,escalera,es ##cale ##ra,6,1,2,ger,14,0.08906532824039459
+6,gerente_escalera,escalera,es ##cale ##ra,6,1,3,Gregorio,2,0.07226575165987015
+6,gerente_escalera,escalera,es ##cale ##ra,6,1,4,[SEP],46,0.047385118901729584
+6,gerente_escalera,escalera,es ##cale ##ra,6,1,5,escena,44,0.04559602588415146
+6,gerente_escalera,escalera,es ##cale ##ra,6,6,1,estaba,16,0.2267468422651291
+6,gerente_escalera,escalera,es ##cale ##ra,6,6,2,atención,8,0.15063774585723877
+6,gerente_escalera,escalera,es ##cale ##ra,6,6,3,;,12,0.0971021056175232
+6,gerente_escalera,escalera,es ##cale ##ra,6,6,4,[CLS],0,0.08564066141843796
+6,gerente_escalera,escalera,es ##cale ##ra,6,6,5,dedicar,5,0.053726669400930405
+6,gerente_escalera,escalera,es ##cale ##ra,6,12,1,[CLS],0,0.15245231986045837
+6,gerente_escalera,escalera,es ##cale ##ra,6,12,2,es,19,0.13377167284488678
+6,gerente_escalera,escalera,es ##cale ##ra,6,12,3,la,18,0.05239451304078102
+6,gerente_escalera,escalera,es ##cale ##ra,6,12,4,[SEP],46,0.05085527524352074
+6,gerente_escalera,escalera,es ##cale ##ra,6,12,5,##ra,21,0.047298554331064224
+6,gerente_escalera,escalera,es ##cale ##ra,12,1,1,la,18,0.315280556678772
+6,gerente_escalera,escalera,es ##cale ##ra,12,1,2,es,19,0.07776743918657303
+6,gerente_escalera,escalera,es ##cale ##ra,12,1,3,[CLS],0,0.07094850391149521
+6,gerente_escalera,escalera,es ##cale ##ra,12,1,4,[SEP],46,0.06259243190288544
+6,gerente_escalera,escalera,es ##cale ##ra,12,1,5,##cale,20,0.049935050308704376
+6,gerente_escalera,escalera,es ##cale ##ra,12,6,1,[SEP],46,0.19245384633541107
+6,gerente_escalera,escalera,es ##cale ##ra,12,6,2,la,18,0.1395130455493927
+6,gerente_escalera,escalera,es ##cale ##ra,12,6,3,.,45,0.11083915829658508
+6,gerente_escalera,escalera,es ##cale ##ra,12,6,4,el,13,0.09869617968797684
+6,gerente_escalera,escalera,es ##cale ##ra,12,6,5,[CLS],0,0.05516689270734787
+6,gerente_escalera,escalera,es ##cale ##ra,12,12,1,es,19,0.983711302280426
+6,gerente_escalera,escalera,es ##cale ##ra,12,12,2,bar,26,0.008643370121717453
+6,gerente_escalera,escalera,es ##cale ##ra,12,12,3,última,39,0.0019746010657399893
+6,gerente_escalera,escalera,es ##cale ##ra,12,12,4,bara,33,0.0015465503092855215
+6,gerente_escalera,escalera,es ##cale ##ra,12,12,5,escena,44,0.0014970030169934034
+44,leche_azucar,leche,lec ##he,1,1,1,ca,6,0.16156677901744843
+44,leche_azucar,leche,lec ##he,1,1,2,[SEP],29,0.10726777464151382
+44,leche_azucar,leche,lec ##he,1,1,3,[CLS],0,0.09719357639551163
+44,leche_azucar,leche,lec ##he,1,1,4,con,14,0.070340096950531
+44,leche_azucar,leche,lec ##he,1,1,5,lec,12,0.06340974569320679
+44,leche_azucar,leche,lec ##he,1,6,1,[CLS],0,0.15889540314674377
+44,leche_azucar,leche,lec ##he,1,6,2,flota,21,0.12062236666679382
+44,leche_azucar,leche,lec ##he,1,6,3,##úcar,16,0.0776316225528717
+44,leche_azucar,leche,lec ##he,1,6,4,una,5,0.06278230249881744
+44,leche_azucar,leche,lec ##he,1,6,5,##cito,24,0.04432743787765503
+44,leche_azucar,leche,lec ##he,1,12,1,flota,21,0.15018057823181152
+44,leche_azucar,leche,lec ##he,1,12,2,una,5,0.12439131736755371
+44,leche_azucar,leche,lec ##he,1,12,3,",",17,0.07587802410125732
+44,leche_azucar,leche,lec ##he,1,12,4,##ó,4,0.0558994859457016
+44,leche_azucar,leche,lec ##he,1,12,5,.,28,0.05537088215351105
+44,leche_azucar,leche,lec ##he,6,1,1,[CLS],0,0.280531108379364
+44,leche_azucar,leche,lec ##he,6,1,2,pan,27,0.058232296258211136
+44,leche_azucar,leche,lec ##he,6,1,3,[SEP],29,0.0574784092605114
+44,leche_azucar,leche,lec ##he,6,1,4,tro,23,0.05559825152158737
+44,leche_azucar,leche,lec ##he,6,1,5,flota,21,0.05031741037964821
+44,leche_azucar,leche,lec ##he,6,6,1,[CLS],0,0.1954314112663269
+44,leche_azucar,leche,lec ##he,6,6,2,##con,2,0.18180692195892334
+44,leche_azucar,leche,lec ##he,6,6,3,ca,6,0.09048138558864594
+44,leche_azucar,leche,lec ##he,6,6,4,##leta,8,0.06388039886951447
+44,leche_azucar,leche,lec ##he,6,6,5,##zo,7,0.04803548380732536
+44,leche_azucar,leche,lec ##he,6,12,1,##úcar,16,0.13854007422924042
+44,leche_azucar,leche,lec ##he,6,12,2,az,15,0.13306383788585663
+44,leche_azucar,leche,lec ##he,6,12,3,ca,6,0.08581081032752991
+44,leche_azucar,leche,lec ##he,6,12,4,lec,12,0.07756397128105164
+44,leche_azucar,leche,lec ##he,6,12,5,[CLS],0,0.0749398022890091
+44,leche_azucar,leche,lec ##he,12,1,1,##úcar,16,0.2256798893213272
+44,leche_azucar,leche,lec ##he,12,1,2,az,15,0.1003381684422493
+44,leche_azucar,leche,lec ##he,12,1,3,.,28,0.08488752692937851
+44,leche_azucar,leche,lec ##he,12,1,4,pan,27,0.07688893377780914
+44,leche_azucar,leche,lec ##he,12,1,5,lec,12,0.06942672282457352
+44,leche_azucar,leche,lec ##he,12,6,1,[CLS],0,0.1741224229335785
+44,leche_azucar,leche,lec ##he,12,6,2,[SEP],29,0.13800491392612457
+44,leche_azucar,leche,lec ##he,12,6,3,.,28,0.10433625429868698
+44,leche_azucar,leche,lec ##he,12,6,4,de,26,0.07976210862398148
+44,leche_azucar,leche,lec ##he,12,6,5,de,11,0.0757904052734375
+44,leche_azucar,leche,lec ##he,12,12,1,lec,12,0.6254565119743347
+44,leche_azucar,leche,lec ##he,12,12,2,az,15,0.23715722560882568
+44,leche_azucar,leche,lec ##he,12,12,3,lle,9,0.03557124361395836
+44,leche_azucar,leche,lec ##he,12,12,4,pan,27,0.02467743493616581
+44,leche_azucar,leche,lec ##he,12,12,5,de,26,0.017534473910927773
+44,leche_azucar,azúcar,az ##úcar,1,1,1,az,15,0.19274573028087616
+44,leche_azucar,azúcar,az ##úcar,1,1,2,[CLS],0,0.09429915249347687
+44,leche_azucar,azúcar,az ##úcar,1,1,3,##cito,24,0.057332225143909454
+44,leche_azucar,azúcar,az ##úcar,1,1,4,[SEP],29,0.049657344818115234
+44,leche_azucar,azúcar,az ##úcar,1,1,5,",",17,0.04804062843322754
+44,leche_azucar,azúcar,az ##úcar,1,6,1,que,20,0.10270403325557709
+44,leche_azucar,azúcar,az ##úcar,1,6,2,[CLS],0,0.09324068576097488
+44,leche_azucar,azúcar,az ##úcar,1,6,3,En,1,0.07817276567220688
+44,leche_azucar,azúcar,az ##úcar,1,6,4,de,11,0.06848527491092682
+44,leche_azucar,azúcar,az ##úcar,1,6,5,en,18,0.06503432244062424
+44,leche_azucar,azúcar,az ##úcar,1,12,1,una,5,0.07378052920103073
+44,leche_azucar,azúcar,az ##úcar,1,12,2,que,20,0.06797506660223007
+44,leche_azucar,azúcar,az ##úcar,1,12,3,de,26,0.06717666983604431
+44,leche_azucar,azúcar,az ##úcar,1,12,4,de,11,0.06355555355548859
+44,leche_azucar,azúcar,az ##úcar,1,12,5,en,18,0.059770211577415466
+44,leche_azucar,azúcar,az ##úcar,6,1,1,[CLS],0,0.27354422211647034
+44,leche_azucar,azúcar,az ##úcar,6,1,2,[SEP],29,0.09084001928567886
+44,leche_azucar,azúcar,az ##úcar,6,1,3,.,28,0.06872256845235825
+44,leche_azucar,azúcar,az ##úcar,6,1,4,tro,23,0.06353642791509628
+44,leche_azucar,azúcar,az ##úcar,6,1,5,ca,6,0.05523139610886574
+44,leche_azucar,azúcar,az ##úcar,6,6,1,[CLS],0,0.15677669644355774
+44,leche_azucar,azúcar,az ##úcar,6,6,2,##úcar,16,0.10390724986791611
+44,leche_azucar,azúcar,az ##úcar,6,6,3,lec,12,0.06860092282295227
+44,leche_azucar,azúcar,az ##úcar,6,6,4,##con,2,0.06392970681190491
+44,leche_azucar,azúcar,az ##úcar,6,6,5,de,11,0.057440102100372314
+44,leche_azucar,azúcar,az ##úcar,6,12,1,az,15,0.1746051162481308
+44,leche_azucar,azúcar,az ##úcar,6,12,2,##úcar,16,0.1236208900809288
+44,leche_azucar,azúcar,az ##úcar,6,12,3,lec,12,0.12072693556547165
+44,leche_azucar,azúcar,az ##úcar,6,12,4,[CLS],0,0.09499047696590424
+44,leche_azucar,azúcar,az ##úcar,6,12,5,con,14,0.06642170250415802
+44,leche_azucar,azúcar,az ##úcar,12,1,1,##úcar,16,0.19675062596797943
+44,leche_azucar,azúcar,az ##úcar,12,1,2,az,15,0.14605548977851868
+44,leche_azucar,azúcar,az ##úcar,12,1,3,.,28,0.09325171262025833
+44,leche_azucar,azúcar,az ##úcar,12,1,4,de,26,0.09118318557739258
+44,leche_azucar,azúcar,az ##úcar,12,1,5,[CLS],0,0.08767089247703552
+44,leche_azucar,azúcar,az ##úcar,12,6,1,[CLS],0,0.21763287484645844
+44,leche_azucar,azúcar,az ##úcar,12,6,2,[SEP],29,0.14485391974449158
+44,leche_azucar,azúcar,az ##úcar,12,6,3,de,26,0.09284384548664093
+44,leche_azucar,azúcar,az ##úcar,12,6,4,.,28,0.0798460990190506
+44,leche_azucar,azúcar,az ##úcar,12,6,5,de,11,0.0703640803694725
+44,leche_azucar,azúcar,az ##úcar,12,12,1,az,15,0.821912407875061
+44,leche_azucar,azúcar,az ##úcar,12,12,2,lec,12,0.06633543223142624
+44,leche_azucar,azúcar,az ##úcar,12,12,3,de,26,0.029918577522039413
+44,leche_azucar,azúcar,az ##úcar,12,12,4,pan,27,0.01929588057100773
+44,leche_azucar,azúcar,az ##úcar,12,12,5,[SEP],29,0.01521046832203865

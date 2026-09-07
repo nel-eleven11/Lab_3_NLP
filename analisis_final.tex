@@ -1,0 +1,46 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\title{Análisis de atención en BERT: \textit{La metamorfosis}}
+\author{Nelson García (22434) y Joaquín Puente (22296)}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Metodología}
+Se analizaron dos páginas consecutivas del corpus, las páginas 14 y 15, seleccionadas de forma reproducible mediante la semilla 20260831. Después de normalizar el texto se conservaron 50 oraciones completas. Se utilizó \texttt{bert-base-multilingual-cased}, cuyo encoder tiene 12 capas y 12 cabezas por capa. Las matrices se obtuvieron con \texttt{output\_attentions=True}. Se estudiaron las oraciones que contienen ``gerente--escalera'' y ``leche--azúcar'', inspeccionando las capas 1, 6 y 12 y las cabezas 1, 6 y 12.
+
+\section{Resultados de la atención}
+La tabla generada por el notebook, \texttt{resultados\_atencion.csv}, contiene los cinco tokens destino con mayor peso para cada consulta. Un token destino no debe interpretarse automáticamente como una palabra completa: puede ser una subpalabra WordPiece, un signo de puntuación o un token especial. Las figuras del notebook muestran la distribución completa de cada matriz, mientras que la tabla permite identificar los máximos numéricos.
+
+\section{Respuestas a las preguntas de análisis}
+\subsection{1. ¿Qué tokens reciben mayor atención?}
+Los tokens con mayor atención son los que aparecen en los primeros cinco rangos de cada consulta en \texttt{resultados\_atencion.csv}. La respuesta depende de la oración, la capa y la cabeza. Por esto no existe un único token ``más atendido'' para toda la secuencia. La tabla debe reportarse con su peso y no solamente con el nombre del token.
+
+\subsection{2. ¿Cambian los patrones entre capas?}
+Sí. Las capas no tienen que atender a los mismos destinos. En capas tempranas es común observar relaciones locales y señales de segmentación; en capas intermedias y profundas pueden aparecer relaciones más amplias dependientes de la estructura y del contexto. Esta es una tendencia interpretativa, no una regla que permita asignar una función fija a cada capa.
+
+\subsection{3. ¿Cambian los patrones entre cabezas?}
+Sí. Las cabezas reciben la misma secuencia, pero calculan distribuciones diferentes. Algunas concentran el peso en una posición, otras lo reparten entre varios tokens. Las diferencias concretas deben verificarse en los top--5 y en los mapas de calor, comparando siempre la misma capa y oración.
+
+\subsection{4. ¿Las palabras con mayor atención son lingüísticamente relevantes?}
+A veces sí, por ejemplo cuando una cabeza relaciona una entidad con su verbo, sus modificadores o una palabra semánticamente asociada. Sin embargo, también pueden ocupar los primeros lugares \texttt{[CLS]}, \texttt{[SEP]}, puntuación, la propia palabra consultada o una subpalabra. Por tanto, un máximo de atención no equivale por sí solo a relevancia lingüística.
+
+\subsection{5. ¿Qué diferencias aparecen entre oraciones simples y complejas?}
+Una oración compleja contiene más dependencias posibles: subordinación, pronombres, coordinaciones y relaciones a larga distancia. En consecuencia, la atención puede distribuirse entre más posiciones y variar más entre cabezas. Una oración simple puede mostrar patrones más locales, pero la longitud no basta para establecer complejidad sintáctica ni para garantizar una interpretación particular.
+
+\subsection{6. ¿Qué ocurre cuando una palabra se divide en subpalabras?}
+La palabra lingüística deja de ocupar una sola posición. Cada pieza tiene su propia fila y columna en la matriz, y puede recibir pesos diferentes. En este análisis se consulta la primera pieza de la palabra seleccionada y se reportan todas sus piezas en la columna \emph{subpalabras\_origen}. Los resultados deben describirse a nivel de token, aclarando cuándo varias piezas pertenecen a una misma palabra.
+
+\subsection{7. ¿Qué no puede concluirse solamente con la atención?}
+Los pesos no demuestran causalidad, comprensión, intención ni explicación suficiente de una predicción. Una atención alta no implica que el token sea necesario para la salida, y una atención baja no implica que sea irrelevante. Tampoco se puede inferir una función lingüística universal para una cabeza a partir de dos oraciones. Para afirmaciones causales se necesitarían intervenciones, ablaciones o métodos adicionales de atribución.
+
+\section{Conclusión}
+El análisis permite inspeccionar cómo un Transformer distribuye información entre tokens y cómo esa distribución cambia con la capa, la cabeza y el contexto. La evidencia respalda una lectura descriptiva de las representaciones internas: muestra asociaciones y patrones de distribución, pero no constituye una explicación causal completa. La unidad correcta de inspección es el token del modelo, incluyendo subpalabras y tokens especiales, y toda interpretación debe contrastarse entre varias oraciones y configuraciones.
+
+\end{document}
